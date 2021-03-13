@@ -1,0 +1,100 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	position: fixed;
+	top: 5;
+	width:100%;
+	border: 1px solid #e7e7e7;
+    background-color:darkseagreen ;
+    align-items: baseline;
+  }
+.list {
+    display:inline-flex;
+    height: 1px;
+    padding-top: 1px;
+    justify-content: center;
+    align-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.title{
+        color: blue;
+    }
+body{
+        background-color:beige;
+    }
+.panda {
+    color:black;
+    background-color:rgb(164, 221, 169);  
+}
+.submit {
+    border: cornflowerblue;
+    background: darkcyan;
+}
+input[type=text], select {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:-webkit-inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 200px;
+    background-color:rgb(134, 134, 201);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:#dfb1b1;  
+  }
+ 
+  .forms {
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0); color: white;
+    padding: 20px;
+  }
+.info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:beige  ;
+    padding: 5px;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color:teal;
+}
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image:url(Le-panda.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+  }

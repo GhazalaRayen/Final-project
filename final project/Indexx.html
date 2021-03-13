@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My  website</title>
+<link rel="stylesheet" type="text/css" href="css.css" />
+<!-- bootstrap cdn -->
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<!-- font awesome cdn -->
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+<!-- home section1 -->
+<section class="container-fluid banner" id="home">
+<div class="row">
+<div class="nav2" id="nav2">
+<i class="fa fa-close" onclick="navclose();"></i>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="col-md-12 navigation-bar navbar" id="navigation-bar">
+<div class="logo navbar-brand">
+<a href="index.html">
+Login<span>.</span>
+</a>
+</div>
+<div class="menu-text" onclick="navopen();">
+<p class="menu-heading">MENU</p>
+<i class="fa fa-bars"></i>
+</div>
+</div>
+<div class="col-md-12 d-flex info-banner">
+<div class="col-md-10 offset-md-1 info-heading-text">
+<h2>WELCOME </h2>
+<h1>This is my first website after a 4 month of education in go my code . For more information please press the button below </h1>
+<div class="buttons d-flex">
+<a href="#about" class="btn"> HERE</a>
+<a href="https://gomycode.com/" class="btn" target="_blank">GO MY CODE </a>
+</div>
+</div>
+<div class="col-md-1 social-icons">
+<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+<a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram"></i></a>
+<a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a>
+<a href="https://www.whatsapp.com/?lang=fr"><i class="fa fa-whatsapp"></i></a>
+</div>
+</div>
+<a href="#portfolio" class="col-md-2 offset-md-9 angle">
+<i class="fa fa-angle-down"></i>
+<h2>SCROLL DOWN</h2>
+</a>
+</div>
+</section>
+<section class="container about" id="about">
+<div class="light-box-intro" id="light-box-intro">
+<i class="fa fa-close" onclick="lightboxout();"></i>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/01zJV7GMX8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="row">
+<div class="col-md-12 main-about offset-md-1 d-flex">
+<div class="col-md-6 about-us-info">
+<h1 class="about-us-info-heading">
+ABOUT ME
+</h1>
+<p class="about-us-info-subheading">
+My name is Rayen Ghazala a web development beginner and this is  my first and complete website ever !
+</p>
+</div>
+<div class="col-md-6 about-us-intro">
+<h3 class="about-us-intro-heading text-center">This Youtube channel helped me to understand a lot of tricks </h3>
+<div class="image-intro-thumbnail offset-md-3 d-flex" onclick="lightboxappear();">
+<img src="data:image/jpeg;base64,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" class="image-responsive image-intro-about" />
+<i class="fa fa-play"></i>
+<div class="circle"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- portfolio section -->
+<section class="container portfolio" id="portfolio">
+<div class="row">
+<div class="col-md-12 portfolio-section">
+<h1 class="text-center portfolio-heading">PORTFOLIO</h1>
+<p class="text-center portfolio-subheading">
+Here are some of my work ..
+</p>
+</div>
+<div class="col-md-11 offset-md-1 portfolio-videos d-flex">
+<iframe width="300" height="200" src="https://ghazalarayen.github.io/htmlcheckpoint/Checkpoint2.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="200" src="CSSCheckpoint.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<!-- contact us section -->
+<section class="container-fluid contact" id="contact">
+<div class="row">
+<div class="col-md-12 contact-heading">
+<h1 class="contact-heading-title text-center">CONTACT US</h1>
+<p class="contact-heading-subtitle text-center">
+Please fill in the blanks below if you have any queries or approches <br/>
+</p>
+</div>
+<div class="col-md-6 contact-form offset-md-3">
+<form id="form-contact">
+<div class="form-group text-center">
+<input type="text" name="name" placeholder="Enter Your Name" required="required" />
+<input type="email" name="email" placeholder="Enter Your Email" required="required" />
+</div>
+<div class="form-group text-center subject">
+<input type="text" name="subject" placeholder="Enter The Subject" required="required" />
+</div>
+<div class="form-group text-center">
+<textarea name="comment" placeholder="Enter The comment" required="required" minlength="20"></textarea>
+</div>
+<div class="form-group text-center">
+<input type="submit" name="submit-btn" value="SEND" form="form-contact" class="btn btn-primary" />
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- footer section here -->
+<section class="container-fluid footer bg-primary" id="footer">
+<a href="index.html" class="logo-footer text-center"></a><br />
+
+<p class="footer-credits text-center">
+<center>   
+  <div class="forms">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="tunis">Tunis</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <input type="submit" value="Submit">
+        </form>
+        </div>
+      </center>   
+      <a href="#home" class="btn btn-back text-center">BACK TO TOP</a>
+</p>
+</section>
+<!-- script -->
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
